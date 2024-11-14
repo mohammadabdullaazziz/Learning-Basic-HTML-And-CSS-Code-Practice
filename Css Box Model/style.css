@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+ background-color: blueviolet;
+ color: white;
+ width: 300px;
+ margin: 5px;
+ padding: 5px;
+ border: 5px solid rgb(153, 224, 20);
+}
+
+p{
+ margin-left: 15px;
+ color: rgb(50, 47, 255);
+}
