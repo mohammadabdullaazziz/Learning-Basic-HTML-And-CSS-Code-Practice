@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tooltip start */
+
+.tooltip{
+color: black;
+text-decoration: none;
+border: 1px solid black;
+padding: 5px;
+margin: 15px;
+border-radius: 2px;
+position: relative;
+}
+  
+.tooltip .tooltip-text{
+visibility: hidden;
+background-color: cadetblue;
+color: rgb(238, 233, 233);
+padding: 5px;
+width: 200px;
+border: 1px solid black;
+border-radius: 2px;
+position: absolute;
+top: 25px;
+left: 20px;
+}
+
+.tooltip:hover .tooltip-text{
+visibility: visible;
+}
+/* Tooltip end */
+
+/* overflow start */
+section{
+ background-color: gray;
+ color: white;
+ border: 2px solid black;
+ width: 300px;
+ height: 120px;
+ overflow: scroll;
+ margin-top: 20px;
+ margin-left: 15px;
+}
+
+section h3{
+ text-align: center;
+}
+
+section p{
+ text-align: justify;
+}
+/* overflow  end */
