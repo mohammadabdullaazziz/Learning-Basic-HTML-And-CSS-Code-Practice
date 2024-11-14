@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-menu{
+  background-color: cadetblue; 
+  display: flex;
+  justify-content: flex-end;
+  }
+
+.navbar-menu a{
+ text-decoration: none;
+ font-size: 18px;
+ color: white;
+ padding: 10px;
+ margin-right: 70px;
+ transition: 0.5s;
+}
+
+.navbar-menu a:hover{
+ background-color: gray;
+}
